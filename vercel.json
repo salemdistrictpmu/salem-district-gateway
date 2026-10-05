@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/csr",
+      "destination": "https://csr-website-khaki.vercel.app/"
+    },
+    {
+      "source": "/csr/:path*",
+      "destination": "https://csr-website-khaki.vercel.app/:path*"
+    }
+  ]
+}
